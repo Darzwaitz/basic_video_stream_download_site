@@ -6,6 +6,14 @@
   margin-top: 2rem;
 }
 
+.u-padding-top-small {
+  padding-top: 2rem;
+}
+
+.u-margin-left-small {
+  margin-left: 2rem;
+}
+
 *,
 *::after,
 *::before {
@@ -28,6 +36,12 @@ body {
   background-image: linear-gradient(to right, green 0%, white 50%, orange 100%);
   background-size: cover;
   height: auto;
+}
+
+video__content-area {
+  width: 60%;
+  height: 10rem;
+  background-color: gold;
 }
 
 body {
