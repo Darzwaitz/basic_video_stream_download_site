@@ -16,6 +16,16 @@ body{
     height: 45rem;
     border-radius: $box-border-radius;
     box-shadow: rgba(0, 0, 0, 0.527) .5rem .5rem 8rem;
+    display: flex;
+    // flex-direction: column;
+    align-items: center;
+    padding-left: 8rem;
+
+    &__banner-title{
+        color: white;
+        font-size: 2rem;
+        line-height: 5rem;
+    }
 }
 // main section
 main{

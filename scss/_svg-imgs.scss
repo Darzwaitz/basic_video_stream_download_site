@@ -1,13 +1,29 @@
 .svg{
     &__download{
+            fill: rgb(163, 111, 13);
+            transition: all .2s;
+            border-radius: 0;
 
+        &:hover{
+            // fill: white;
+            fill: white;
+            transform: scale(1.1);
+            // box-shadow: 2px 2px 4px rgba($color: #000000, $alpha: 1.0);
+            // body > main > div:nth-child(2) > div.video__details > div.video__details--download > div.video__details--download-box.video__details--download-box-1 > svg > use
+        }
+        // &use{
+        //     fill: yellow;
+        // }
         &-large{
-                height: 5rem;
-                fill: white;
-                background-color: brown;
+                height: 4rem;
+                width: 4rem;
+                // fill: blue;
+                // background-color: brown;
+                
             }
         &-small{
-            height: 5rem;
+            height: 4rem;
+            width: 4rem;
         }
     }    
 }

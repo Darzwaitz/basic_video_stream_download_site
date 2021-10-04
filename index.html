@@ -11,7 +11,11 @@
 
 <body>
     <header class="header u-margin-top-big">
-        <!-- <h1>Header</h1> -->
+        <div class="header__banner-title">
+            <h1>Gemma O'Doherty</h1>
+            <h2>Bray Court House 29th September 2021</h2>
+        </div>
+
     </header>
     <main class="u-margin-top-small">
         <!-- <div class="container-main"> -->
@@ -20,7 +24,11 @@
         <!-- video 1  -->
         <div class="video__content-area">
             <div class="video__embed-box">
-                <h1>EMBED BOX</h1>
+                <!-- <h1>EMBED BOX</h1> -->
+                <iframe scrolling="no" frameborder="0" class="video__embed-box--iframe" style="border: none;"
+                    src="https://www.bitchute.com/embed/pP59lmo7FG96/"></iframe>
+                <!-- <iframe width="640" height="360" scrolling="no" frameborder="0" style="border: none;"
+                    src="https://www.bitchute.com/embed/pP59lmo7FG96/"></iframe> -->
             </div>
             <div class="video__details">
                 <div class="video__details--description">vid description here -
@@ -31,11 +39,17 @@
                 <div class="video__details--download">
                     <div class="video__details--download-box video__details--download-box-1">
                         <span class="video__details--download-box-title">Large file size</span>
-                        <img class="svg__download svg__download-large" src="./assets/imgs/svgs/download.svg" />
+                        <svg class="svg__download svg__download-large">
+                            <use xlink:href="assets/imgs/svgs/sprite.svg#icon-folder-download"></use>
+                        </svg>
+                        <!-- E:\Dev\myTest-Projectz\G-o-Doherty-site\assets\imgs\svgs -->
+                        <!-- <img class="svg__download svg__download-large" src="./assets/imgs/svgs/download.svg" /> -->
                     </div>
                     <div class="video__details--download-box video__details--download-box-2">
                         <span class="video__details--download-box-title">Small file size</span>
-                        <img class="svg__download svg__download-small" src="./assets/imgs/svgs/download.svg" />
+                        <svg class="svg__download svg__download-small">
+                            <use xlink:href="assets/imgs/svgs/sprite.svg#icon-download3"></use>
+                        </svg>
                     </div>
                 </div>
             </div>
