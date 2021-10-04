@@ -6,12 +6,20 @@
   margin-top: 2rem;
 }
 
+.u-margin-bottom-small {
+  margin-bottom: 2rem;
+}
+
 .u-padding-top-small {
   padding-top: 2rem;
 }
 
-.u-margin-left-small {
-  margin-left: 2rem;
+.u-padding-left-small {
+  padding-left: 2rem;
+}
+
+.u-margin-right-small {
+  margin-right: 2rem;
 }
 
 *,
@@ -38,16 +46,81 @@ body {
   height: auto;
 }
 
-video__content-area {
-  width: 60%;
-  height: 10rem;
+.video__content-area {
+  width: 100%;
   background-color: gold;
+  display: flex;
+  padding-bottom: 2rem;
+}
+
+.video__embed-box {
+  background-color: green;
+  border-radius: 3px;
+  height: 28rem;
+  flex: 0 0 60%;
+  margin-right: 4.5rem;
+  padding-right: 3rem;
+}
+
+.video__details {
+  background-color: cadetblue;
+  border-radius: 3px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video__details--description {
+  border-radius: 3px;
+  background-color: gray;
+  padding: 2rem;
+  margin: 2rem;
+  margin-bottom: 0;
+}
+
+.video__details--download {
+  display: flex;
+  margin-top: 3rem;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.video__details--download-box {
+  padding: 1rem;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.video__details--download-box-title {
+  font-size: 1rem;
+  display: block;
+}
+
+.video__details--download-box-1 {
+  background-color: beige;
+}
+
+.video__details--download-box-2 {
+  background-color: #5f80c7;
+}
+
+.svg__download-large {
+  height: 5rem;
+  fill: white;
+  background-color: brown;
+}
+
+.svg__download-small {
+  height: 5rem;
 }
 
 body {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
+  padding: 2rem;
   height: 100vh;
 }
 
@@ -55,11 +128,12 @@ body {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
+  padding: 2rem;
   background-color: white;
   background: url(/assets/imgs/LANDSKAPE-COMPz-header-banner-2.jpg) no-repeat center;
   background-size: cover;
   height: 45rem;
-  border-radius: 2px;
+  border-radius: 3px;
   box-shadow: rgba(0, 0, 0, 0.527) 0.5rem 0.5rem 8rem;
 }
 
@@ -67,6 +141,7 @@ main {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
+  padding: 2rem;
   background-color: lightpink;
   width: 95%;
 }

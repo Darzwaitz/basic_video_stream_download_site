@@ -14,7 +14,7 @@ body{
     background: url(/assets/imgs/LANDSKAPE-COMPz-header-banner-2.jpg) no-repeat center;  
     background-size: cover;
     height: 45rem;
-    border-radius: 2px;
+    border-radius: $box-border-radius;
     box-shadow: rgba(0, 0, 0, 0.527) .5rem .5rem 8rem;
 }
 // main section

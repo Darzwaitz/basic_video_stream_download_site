@@ -1,0 +1,13 @@
+.svg{
+    &__download{
+
+        &-large{
+                height: 5rem;
+                fill: white;
+                background-color: brown;
+            }
+        &-small{
+            height: 5rem;
+        }
+    }    
+}

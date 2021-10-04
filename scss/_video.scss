@@ -1,7 +1,75 @@
-video{
+.video{
     &__content-area{
-        width: 60%;
-        height: 10rem;
+        width: 100%;
         background-color: gold;
+        display: flex;
+        padding-bottom: 2rem; // add to all except last
+    }
+    &__embed-box{
+        background-color: green;
+        border-radius: $box-border-radius;
+        // width: 55%;
+        height: 28rem;
+        flex: 0 0 60%;
+        margin-right: 4.5rem;
+        // display: inline-block;
+        // float: left;
+        padding-right: 3rem;
+    }
+    &__details{
+        background-color: cadetblue;
+        border-radius: $box-border-radius;
+        flex: 1;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+
+        &--description{
+            border-radius: $box-border-radius;
+            background-color: gray;            
+            padding: 2rem;
+            margin: 2rem;
+            margin-bottom: 0;
+            
+            // width: 30%;
+            // display: inline-block;
+            // float: right;
+        }
+        &--download{
+            display: flex;
+            // background-color: red;
+            margin-top: 3rem;
+            width: 100%;
+            justify-content: space-around;
+            
+            // padding: 3rem;
+            
+            // width: 30%;
+            // display: inline-block;
+            // float: right;
+            &-box{
+                padding: 1rem;
+                border-radius: $box-border-radius;
+                display: flex;
+                flex-direction: column;
+                &-title{
+                    font-size: 1rem;
+                    display: block;
+                }
+            }
+            &-box-1{
+                background-color: beige;
+
+                
+            }
+            &-box-2{
+                background-color: rgb(95, 128, 199);
+            }
+        }
     }
 }
