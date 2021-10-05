@@ -52,5 +52,21 @@ body{
     }
     //grid
     //footer
+    .footer{
+        @include container-main;
+        @include div-white-bg-shadow;
+        @include div-div-white-bg-shadow-2;
+
+        margin: 2rem auto;
+        &__container{
+            padding: 1.5rem;
+            h6{
+                font-size: 2rem;
+                // color: red;
+        padding-bottom: 2rem;
+
+            }
+        }        
+    }
     // navigation
 }
