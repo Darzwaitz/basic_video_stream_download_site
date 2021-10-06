@@ -23,3 +23,15 @@
         -ms-flex-align: center;
         align-items: center;
 }
+
+@mixin svg-and-link-hover{
+    fill: darken($svg-link-fill-primary, 10%);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@mixin fade-in-anim($secs){
+    animation: fadeInAnimation ease $secs;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}

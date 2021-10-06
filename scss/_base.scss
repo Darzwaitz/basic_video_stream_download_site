@@ -11,23 +11,15 @@ html {
     font-size: 62.5%;
 }
 
-
-
 body {  
-    // box-sizing: inherit;
     font-family: "Tahamo", sans-serif;
     font-weight: 400;
     font-size: 1.6rem;
     color: #000;
     line-height: 1.7;
-    // color: $color-grey-dark;
-    // padding: 3rem;
     box-sizing: border-box;
     // background-image: linear-gradient(to right,(green)0%, (white)50%,  (orange)100%);
     background-image: linear-gradient(to right, #008000 6%,#ffffffd9 33%, #ffffffd9 65%, #ffa500 96%);
-    // width: 80%;
     background-size: cover;
-    // background-color: red;
-    
     height: auto;
 }
